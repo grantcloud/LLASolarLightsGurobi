@@ -6,6 +6,7 @@ import geopy.distance
 from gurobipy import *
 
 #maxRange = 1.36702 #miles == 2.2km: 8 central hubs needed w/ spoke model
+print('if max range of each solar light connection is 2 km : ')
 maxRange = 1.24274 #miles = 2km: 10 central hubs needed w/ spoke model
 
 def csvReader():
