@@ -66,6 +66,6 @@ if status == 2:
         if v.x == 1.0:
             finalList.append(csvList[int(v.varName[v.varName.find('[') + 1:v.varName.find(']')])])
 
-    print('Number of solar lights needed:{}'.format(m.objVal))
+    print('Number of solar light central hubs needed:{}'.format(m.objVal))
 
 pprint(finalList)
